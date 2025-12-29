@@ -1,0 +1,23 @@
+canonical_fields:
+  age_years:
+    candidates: ["RIDAGEYR"]
+  sex_at_birth:
+    candidates: ["RIAGENDR"]
+  height_cm:
+    candidates: ["BMXHT"]
+  weight_kg:
+    candidates: ["BMXWT"]
+  waist_circumference_cm:
+    candidates: ["BMXWAIST"]
+  systolic_bp_mmHg:
+    candidates: ["BPXSY1", "BPXSY2", "BPXSY3", "BPXSY4"]
+  diastolic_bp_mmHg:
+    candidates: ["BPXDI1", "BPXDI2", "BPXDI3", "BPXDI4"]
+  hba1c_percent:
+    candidates: ["LBXGH"]
+  fasting_glucose_mg_dL:
+    candidates: ["LBXGLU"]
+  triglycerides_mg_dL:
+    candidates: ["LBXTR", "LBXTLG"]
+  hdl_mg_dL:
+    candidates: ["LBDHDD"]
