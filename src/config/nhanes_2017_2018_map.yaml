@@ -1,0 +1,62 @@
+cycle: "2017-2018"
+suffix: "_J"
+
+tables:
+  DEMO:
+    seqn: "SEQN"
+    fields:
+      age_years: "RIDAGEYR"
+      sex_at_birth: "RIAGENDR"
+      race_ethnicity: "RIDRETH3"
+      pregnancy_status: "RIDEXPRG"
+
+  BMX:
+    seqn: "SEQN"
+    fields:
+      height_cm: "BMXHT"
+      weight_kg: "BMXWT"
+      waist_circumference_cm: "BMXWAIST"
+      bmi: "BMXBMI"
+
+  BPX:
+    seqn: "SEQN"
+    systolic_readings: ["BPXSY1", "BPXSY2", "BPXSY3", "BPXSY4"]
+    diastolic_readings: ["BPXDI1", "BPXDI2", "BPXDI3", "BPXDI4"]
+
+  GHB:
+    seqn: "SEQN"
+    fields:
+      hba1c_percent: "LBXGH"
+
+  GLU:
+    seqn: "SEQN"
+    fields:
+      fasting_glucose_mg_dL: "LBXGLU"
+
+  HDL:
+    seqn: "SEQN"
+    fields:
+      hdl_mg_dL: "LBDHDD"
+
+  TRIGLY:
+    seqn: "SEQN"
+    fields:
+      triglycerides_mg_dL: "LBXTR"
+
+  TCHOL:
+    seqn: "SEQN"
+    fields:
+      total_cholesterol_mg_dL: "LBXTC"
+
+  BIOPRO:
+    seqn: "SEQN"
+    fields:
+      alt_U_L: "LBXSATSI"
+      creatinine_mg_dL: "LBXSCR"
+
+  DIQ:
+    seqn: "SEQN"
+    fields:
+      diabetes_self_report: "DIQ010"
+      on_insulin_now: "DIQ050"
+      on_diabetes_pills_now: "DIQ070"

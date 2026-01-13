@@ -1,4 +1,4 @@
-# Data (never commit)
+# Data
 data_raw/
 data_interim/
 data_processed/
@@ -16,3 +16,31 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic runtime files
+alembic/versions/__pycache__/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug / artifacts
+project_tree.txt
