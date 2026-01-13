@@ -44,3 +44,9 @@ Thumbs.db
 
 # Debug / artifacts
 project_tree.txt
+
+# Allow deployment artifacts
+!data_processed/2017-2018/models/model_a_calibrated.joblib
+!data_processed/2017-2018/models/feature_list.json
+!data_processed/2017-2018/reports/stage8_permutation_importance_test.csv
+
